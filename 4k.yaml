@@ -1,0 +1,8 @@
+channels: [32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+tensorboard_log_dir: 'runs/stylegan2_4ktest'
+tensorboard_image_interval: 50
+checkpoint_dir: 'checkpoints/stylegan2_4ktest'
+checkpoint_interval: 100
+data_dir: /content/banana/
+gpu: [0]
+batch_size: 16
