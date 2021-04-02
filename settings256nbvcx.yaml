@@ -1,0 +1,7 @@
+channels: [64, 64, 64, 128, 128, 256, 256]
+tensorboard_log_dir: 'runs/stylegan2_multi256'
+tensorboard_image_interval: 50
+checkpoint_dir: 'checkpoints/stylegan2_multi256'
+checkpoint_interval: 100
+data_dir: /content/banana/
+gpu: [0]
